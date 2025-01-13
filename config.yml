@@ -1,10 +1,10 @@
-year: '2021'
+year: '2025'
 site_name:
-  en: Ana Caroline Colombo
-  pt: Ana Caroline Colombo
-author: Ana Caroline Colombo
+  en: Yago M Castro
+  pt: Yago M Castro
+author: Yago M Castro
 language: en
-repository: acarolcolombo/caroldoscopio
+repository: YagoMCastro/website
 navigation:
   en:
     - name: Home
@@ -16,17 +16,14 @@ navigation:
 contact:
   links:
   - icon: fas fa-envelope
-    text: contact@acarolcolombo.com
-    url: mailto:contact@acarolcolombo.com
+    text: yagomcastro1@gmail.com
+    url: mailto:yagomcastro1@gmail.com
   - icon: fab fa-linkedin
     text: LinkedIn
-    url: https://linkedin.com/in/acarolcolombo
+    url: https://linkedin.com/in/yago-moreira-castro-982b08184
   - icon: fab fa-github
-    text: 'GitHub: @acarolcolombo'
-    url: https://github.com/acarolcolombo
-  - icon: fab fa-twitter
-    text: 'Twitter: @acarolcolombo'
-    url: https://twitter.com/acarolcolombo
+    text: 'GitHub: @YagoMCastro'
+    url: https://github.com/YagoMCastro
   title:
     en: Contact
     pt: Contato

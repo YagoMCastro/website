@@ -1,12 +1,10 @@
 # My personal website
 
-## Created with Nēnē and in collaboration with @leouieda.
+## Created with Nēnē.
 
-Website: https://www.acarolcolombo.com
+Website:
 
 Nēnē: https://nene.leouieda.com
-
-Github action status: ![build-html](https://github.com/acarolcolombo/caroldoscopio/workflows/build-html/badge.svg)
 
 ## Notes:
 
@@ -52,3 +50,6 @@ of "blocks" `{% block example %} {% endblock %}`.
 We can configure Nēnē using the `config.yml` file. For example, we can use
 that to tell it to ignore some folders or files and insert variables into the
 templates.
+
+## Acknowledgments
+This project used [acarolcolombo/website](https://github.com/acarolcolombo/website) as a template and was inspired on [acarolcolombo.com](https://www.acarolcolombo.com/), [leouieda.com](leouieda.com) and [santisoler.com](santisoler.com).

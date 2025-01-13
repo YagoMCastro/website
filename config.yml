@@ -1,0 +1,35 @@
+year: '2021'
+site_name:
+  en: Ana Caroline Colombo
+  pt: Ana Caroline Colombo
+author: Ana Caroline Colombo
+language: en
+repository: acarolcolombo/caroldoscopio
+navigation:
+  en:
+    - name: Home
+      id: index
+    - name: Science
+      id: science/index
+    - name: Contact
+      id: contact/index
+contact:
+  links:
+  - icon: fas fa-envelope
+    text: contact@acarolcolombo.com
+    url: mailto:contact@acarolcolombo.com
+  - icon: fab fa-linkedin
+    text: LinkedIn
+    url: https://linkedin.com/in/acarolcolombo
+  - icon: fab fa-github
+    text: 'GitHub: @acarolcolombo'
+    url: https://github.com/acarolcolombo
+  - icon: fab fa-twitter
+    text: 'Twitter: @acarolcolombo'
+    url: https://twitter.com/acarolcolombo
+  title:
+    en: Contact
+    pt: Contato
+ignore:
+  - README.md
+  - Makefile

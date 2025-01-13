@@ -1,0 +1,113 @@
+/* Styles for basic elements */
+a {
+  color: #0a58ca;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+    width: 100%;
+    color: var(--bs-gray-600);
+    padding: 3rem 0;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+header {
+  background-color: #222222;
+  font-size: 1rem;
+}
+
+blockquote {
+  color: var(--bs-gray-600) !important;
+  border-left: 0.25rem solid var(--bs-gray-600);
+  padding-left: 1rem;
+}
+
+
+/* Tweaks to Bootstrap classes */
+:root {
+  --bs-body-font-size: 1.1rem;
+}
+
+.container {
+  max-width: 980px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.fa-ul {
+    margin-left: 1.6em !important;
+    line-height: 1.7em;
+}
+
+
+/* Custom classes */
+.banner {
+  background-position: bottom center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner-text {
+  padding: 10rem 0;
+}
+
+.page-content {
+  margin-top: 5rem;
+}
+
+.narrow-page {
+  max-width: 700px;
+}
+
+.indented p {
+  text-indent: 2rem;
+}
+
+.about-name {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.about-img {
+  margin-bottom: 2rem;
+}
+
+/* Used to hide elements that should only be shown to screen readers */
+.hidden {
+  display: none;
+}
+
+.callout {
+  margin: 0 auto 1.5rem;
+  /* Set a tiny bottom padding because 0 causes it to ignore the p padding */
+  padding: 1rem 1rem 0.001rem;
+  box-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  background-color: var(--bs-gray-100);
+}
+
+a.tag-link {
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
+a.tag-link:hover {
+  color: var(--bs-body-color);
+  text-decoration: underline;
+}

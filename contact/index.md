@@ -1,6 +1,5 @@
 ---
 title: Contact
-banner: assets/banners/plant-with-web.jpg
 template: base.html
 ---
 

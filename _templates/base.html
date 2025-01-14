@@ -81,21 +81,23 @@
       {%- set container_type = "section" %}
     {%- endif %}
     <{{ container_type }}>
-      {%- set gradient = "linear-gradient(to top, #00000066, #000000cc)" %}
-      <div class="container-fluid banner" style="background-image: {{ gradient }}, url(/{{ page.banner }});">
-        <div class="container banner-text">
-          {%- if page.banner_title is defined %}
-            <h1>{{ page.banner_title }}</h1>
-          {%- else %}
-            <h1>{{ page.title }}</h1>
-          {%- endif %}
-          {%- if page.banner_subtitle is defined %}
-            <p class="lead">
-              {{ page.banner_subtitle }}
-            </p>
-          {%- endif %}
+      {%- if page.banner is defined %}
+        {%- set gradient = "linear-gradient(to top, #00000066, #000000cc)" %}
+        <div class="container-fluid banner" style="background-image: {{ gradient }}, url(/{{ page.banner }});">
+          <div class="container banner-text">
+            {%- if page.banner_title is defined %}
+              <h1>{{ page.banner_title }}</h1>
+            {%- else %}
+              <h1>{{ page.title }}</h1>
+            {%- endif %}
+            {%- if page.banner_subtitle is defined %}
+              <p class="lead">
+                {{ page.banner_subtitle }}
+              </p>
+            {%- endif %}
+          </div>
         </div>
-      </div>
+      {%- endif %}
       {%- block body %}
         <div class="container page-content narrow-page">
           {{ page.body }}

@@ -9,8 +9,6 @@ navigation:
   en:
     - name: Home
       id: index
-    - name: Science
-      id: science/index
     - name: Contact
       id: contact/index
 contact:

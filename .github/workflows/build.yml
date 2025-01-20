@@ -25,10 +25,10 @@ jobs:
       - name: Build the website
         run: nene
 
-      - name: Clone the acarolcolombo.github.io repository
+      - name: Clone the yagomcastro.github.io repository
         uses: actions/checkout@v4
         with:
-          repository: acarolcolombo/acarolcolombo.github.io
+          repository: yagomcastro/yagomcastro.github.io
           ref: 'master'
           ssh-key:  ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # Checkout to this folder instead of the current one
@@ -36,7 +36,7 @@ jobs:
           # Download the entire history
           fetch-depth: 0
 
-      - name: Push to acarolcolombo.github.io
+      - name: Push to yagomcastro.github.io
         if: success() && github.event_name == 'push'
         run: |
           # Make the new commit message. Needs to happen before cd into deploy
